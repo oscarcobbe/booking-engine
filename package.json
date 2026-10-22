@@ -1,0 +1,21 @@
+{
+  "name": "booking-engine",
+  "version": "1.0.0",
+  "description": "Bookings written straight into a Google Calendar, with no double bookings across sites. Replaced Calendly for two businesses.",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node test/engine.test.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  },
+  "dependencies": {
+    "@vercel/functions": "^3.10.3"
+  }
+}
